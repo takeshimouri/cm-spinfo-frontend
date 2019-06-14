@@ -5,7 +5,7 @@ import { addBook } from '../actions/books';
 
 const AddBook = (props) => (
     <div>
-        <h3>Set Book information:</h3>
+        <h3>新規メモを入力して下さい</h3>
         <BookForm
             onSubmitBook={(book) => {
                 props.dispatch(addBook(book));

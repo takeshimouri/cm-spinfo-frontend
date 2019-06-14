@@ -43,7 +43,7 @@ export default class BookForm extends React.Component {
         e.preventDefault();
 
         if (!this.state.title || !this.state.author || !this.state.published) {
-            this.setState(() => ({ error: 'Please set title & author & published!' }));
+            this.setState(() => ({ error: '項目を入力して下さい' }));
         } else {
             this.setState(() => ({ error: '' }));
             this.props.onSubmitBook(
@@ -63,26 +63,27 @@ export default class BookForm extends React.Component {
                 {this.state.error && <p className='error'>{this.state.error}</p>}
                 <form onSubmit={this.onSubmit} className='add-book-form'>
 
-                    <input type="text" placeholder="title" autoFocus
+                    <input type="text" placeholder="メモ内容" autoFocus
                         value={this.state.title}
                         onChange={this.onTitleChange} />
                     <br />
 
-                    <input type="text" placeholder="author"
+                    <input type="text" placeholder="読者番号"
                         value={this.state.author}
                         onChange={this.onAuthorChange} />
                     <br />
 
-                    <textarea placeholder="description"
+                    <textarea placeholder="区分"
+                        defaultValue=""
                         value={this.state.description}
                         onChange={this.onDescriptionChange} />
                     <br />
 
-                    <input type="number" placeholder="published"
+                    <input type="check" placeholder=""
                         value={this.state.published}
                         onChange={this.onPublishedChange} />
                     <br />
-                    <button>Add Book</button>
+                    <button>登録する</button>
                 </form>
             </div>
         );

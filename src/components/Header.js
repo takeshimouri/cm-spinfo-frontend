@@ -3,11 +3,10 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => (
     <header>
-        <h2>grokonez</h2>
-        <h4>Book Mangement Application</h4>
+        <h2>お客様情報一覧</h2>
         <div className='header__nav'>
-            <NavLink to='/' activeClassName='activeNav' exact={true}>Dashboard</NavLink>
-            <NavLink to='/add' activeClassName='activeNav'>Add Book</NavLink>
+            <NavLink to='/' activeClassName='activeNav' exact={true}>一覧を見る</NavLink>
+            <NavLink to='/add' activeClassName='activeNav'>新規メモ入力</NavLink>
         </div>
     </header>
 );

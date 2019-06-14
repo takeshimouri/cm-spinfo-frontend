@@ -4,16 +4,17 @@ import Book from './Book';
 
 const BookList = (props) => (
     <div>
-        Book List:
-        <ul>
-            {props.books.map(book => {
-                return (
-                    <li key={book.id}>
-                        <Book {...book} />
-                    </li>
-                );
-            })}
-        </ul>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+                            {/* <Book {...book} /> */}
+        {props.books.map(book => {
+            return (
+                    <tbody>
+                        <tr key={book.id}>
+                            <Book {...book} />
+                        </tr>
+                    </tbody>
+            );
+        })}
 
     </div>
 );
