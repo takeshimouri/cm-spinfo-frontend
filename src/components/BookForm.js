@@ -1,4 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const BookFormList = styled.div`
+    width: 400px;
+    background-color: rgb(235, 232, 232);
+    border-spacing: 0;
+	color: rgb(25, 95, 46);
+    border-radius: 6px;
+    font-size: 18px;
+`;
 
 export default class BookForm extends React.Component {
     constructor(props) {
@@ -58,34 +68,52 @@ export default class BookForm extends React.Component {
     }
 
     render() {
+        const FONTSIZE = 25;
         return (
-            <div>
-                {this.state.error && <p className='error'>{this.state.error}</p>}
-                <form onSubmit={this.onSubmit} className='add-book-form'>
+            <BookFormList>
+                <div>
+                    {this.state.error && <p className='error'>{this.state.error}</p>}
+                    <form onSubmit={this.onSubmit} className='add-book-form'>
+                        <textarea
+                            type="text"
+                            style={{ fontSize: FONTSIZE, rows: '10' }}
+                            placeholder="メモ内容" autoFocus
+                            value={this.state.title}
+                            onChange={this.onTitleChange} />
+                        <br />
 
-                    <input type="text" placeholder="メモ内容" autoFocus
-                        value={this.state.title}
-                        onChange={this.onTitleChange} />
-                    <br />
+                        <input
+                            type="text"
+                            style={{ fontSize: FONTSIZE }}
+                            placeholder="区分を選んでください"
+                            defaultValue="書籍"
+                            value={this.state.author}
+                            onChange={this.onAuthorChange} />
+                        <br />
 
-                    <input type="text" placeholder="読者番号"
-                        value={this.state.author}
-                        onChange={this.onAuthorChange} />
-                    <br />
+                        <input
+                            placeholder="区分"
+                            type="text"
+                            style={{ fontSize: FONTSIZE }}
+                            defaultValue="ご意見"
+                            value={this.state.description}
+                            onChange={this.onDescriptionChange} />
+                        <br />
 
-                    <textarea placeholder="区分"
-                        defaultValue=""
-                        value={this.state.description}
-                        onChange={this.onDescriptionChange} />
-                    <br />
-
-                    <input type="check" placeholder=""
-                        value={this.state.published}
-                        onChange={this.onPublishedChange} />
-                    <br />
-                    <button>登録する</button>
-                </form>
-            </div>
+                        <input
+                            type="text"
+                            placeholder="日付"
+                            defaultValue="20190621"
+                            style={{ fontSize: FONTSIZE }}
+                            value={this.state.published}
+                            onChange={this.onPublishedChange} />
+                        <br />
+                        <button
+                            style={{ fontSize: FONTSIZE }}
+                        >登録する</button>
+                    </form>
+                </div>
+            </BookFormList>
         );
     }
 }

@@ -9,7 +9,7 @@ export const addBook = (bookData = {
     title: '',
     description: '',
     author: '',
-    published: 0
+    published: ''
 }) => {
     return (dispatch) => {
         const book = {
@@ -73,4 +73,29 @@ export const getBooks = () => {
             dispatch(_getBooks(books));
         });
     };
-};
+}
+
+
+
+
+
+const _findMemo = ({ id } = {}) => ({
+    type: 'FIND',
+    id,
+    books
+});
+    
+export const findReduce = ({ id } = {}) => {
+    return (dispatch) => {
+        return axios.get(`books/1`).then(result => {
+        // return axios.delete(`/cm_mdmms/${id}`).then(() => {
+            const books = [];
+
+            result.data.forEach(item => {
+                books.push(item);
+            });
+
+            dispatch(_findMemo(id,books));
+        });
+    };
+}
