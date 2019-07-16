@@ -85,14 +85,14 @@ export default class BookForm extends React.Component {
                         <input
                             type="text"
                             style={{ fontSize: FONTSIZE }}
-                            placeholder="区分を選んでください"
+                            placeholder="部門区分"
                             defaultValue="書籍"
                             value={this.state.author}
                             onChange={this.onAuthorChange} />
                         <br />
 
                         <input
-                            placeholder="区分"
+                            placeholder="内容区分"
                             type="text"
                             style={{ fontSize: FONTSIZE }}
                             defaultValue="ご意見"

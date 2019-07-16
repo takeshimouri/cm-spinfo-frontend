@@ -75,10 +75,6 @@ export const getBooks = () => {
     };
 }
 
-
-
-
-
 const _findMemo = ({ id } = {}) => ({
     type: 'FIND',
     id,
@@ -88,7 +84,7 @@ const _findMemo = ({ id } = {}) => ({
 export const findReduce = ({ id } = {}) => {
     return (dispatch) => {
         return axios.get(`books/1`).then(result => {
-        // return axios.delete(`/cm_mdmms/${id}`).then(() => {
+        // return axios.get(`/cm_mdmms/${id}`).then(() => {
             const books = [];
 
             result.data.forEach(item => {

@@ -5,7 +5,7 @@ const initData = {
     message:'please type message:',
     mode:'default',
     fdata:[]
-  };
+};
 
 export default (state = booksReducerDefaultState, action) => {
     switch (action.type) {

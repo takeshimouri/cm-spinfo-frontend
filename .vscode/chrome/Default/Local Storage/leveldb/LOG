@@ -2,3 +2,72 @@
 2019/06/27-13:35:39.829 2234f Level-0 table #5: started
 2019/06/27-13:35:39.931 2234f Level-0 table #5: 16858 bytes OK
 2019/06/27-13:35:40.469 2234f Delete type=0 #3
+2019/06/29-11:34:30.803 23a1f Level-0 table #7: started
+2019/06/29-11:34:30.822 23a1f Level-0 table #7: 17160 bytes OK
+2019/06/29-11:34:30.846 23a1f Delete type=0 #4
+2019/06/29-12:24:46.915 2acef Level-0 table #9: started
+2019/06/29-12:24:46.937 2acef Level-0 table #9: 12829 bytes OK
+2019/06/29-12:24:46.966 2acef Delete type=0 #6
+2019/06/29-19:09:21.791 22343 Level-0 table #11: started
+2019/06/29-19:09:21.818 22343 Level-0 table #11: 12657 bytes OK
+2019/06/29-19:09:21.831 22343 Delete type=0 #8
+2019/06/30-08:03:58.659 35107 Level-0 table #13: started
+2019/06/30-08:03:58.691 35107 Level-0 table #13: 11145 bytes OK
+2019/06/30-08:03:58.724 35107 Delete type=0 #10
+2019/06/30-08:09:43.887 2b4a3 Level-0 table #15: started
+2019/06/30-08:09:43.903 2b4a3 Level-0 table #15: 11998 bytes OK
+2019/06/30-08:09:43.919 2b4a3 Delete type=0 #12
+2019/06/30-08:09:43.927 2bc4b Compacting 4@0 + 1@1 files
+2019/06/30-08:09:43.949 2bc4b Generated table #16@0: 107 keys, 10708 bytes
+2019/06/30-08:09:43.953 2bc4b Compacted 4@0 + 1@1 files => 10708 bytes
+2019/06/30-08:09:43.964 2bc4b compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/06/30-08:09:43.968 2bc4b Delete type=2 #15
+2019/06/30-08:09:43.968 2bc4b Delete type=2 #7
+2019/06/30-08:09:43.969 2bc4b Delete type=2 #13
+2019/06/30-08:09:43.970 2bc4b Delete type=2 #11
+2019/06/30-08:09:43.970 2bc4b Delete type=2 #9
+2019/06/30-09:15:17.375 34643 Level-0 table #18: started
+2019/06/30-09:15:17.391 34643 Level-0 table #18: 8456 bytes OK
+2019/06/30-09:15:17.411 34643 Delete type=0 #14
+2019/06/30-14:32:05.047 3371f Level-0 table #20: started
+2019/06/30-14:32:05.064 3371f Level-0 table #20: 9232 bytes OK
+2019/06/30-14:32:05.081 3371f Delete type=0 #17
+2019/06/30-15:30:13.178 2426f Level-0 table #22: started
+2019/06/30-15:30:13.196 2426f Level-0 table #22: 10201 bytes OK
+2019/06/30-15:30:13.213 2426f Delete type=0 #19
+2019/07/01-07:31:03.428 3419f Level-0 table #24: started
+2019/07/01-07:31:03.449 3419f Level-0 table #24: 10479 bytes OK
+2019/07/01-07:31:03.470 3419f Delete type=0 #21
+2019/07/01-07:31:03.473 2426f Compacting 4@0 + 1@1 files
+2019/07/01-07:31:03.491 2426f Generated table #25@0: 107 keys, 11634 bytes
+2019/07/01-07:31:03.495 2426f Compacted 4@0 + 1@1 files => 11634 bytes
+2019/07/01-07:31:03.508 2426f compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/07/01-07:31:03.512 2426f Delete type=2 #16
+2019/07/01-07:31:03.512 2426f Delete type=2 #20
+2019/07/01-07:31:03.514 2426f Delete type=2 #22
+2019/07/01-07:31:03.514 2426f Delete type=2 #18
+2019/07/01-07:31:03.515 2426f Delete type=2 #24
+2019/07/02-08:02:34.450 2fb13 Level-0 table #27: started
+2019/07/02-08:02:34.475 2fb13 Level-0 table #27: 10672 bytes OK
+2019/07/02-08:02:34.501 2fb13 Delete type=0 #23
+2019/07/03-07:45:10.850 37637 Level-0 table #29: started
+2019/07/03-07:45:10.869 37637 Level-0 table #29: 11534 bytes OK
+2019/07/03-07:45:10.918 37637 Delete type=0 #26
+2019/07/03-14:48:48.152 37e03 Level-0 table #31: started
+2019/07/03-14:48:48.180 37e03 Level-0 table #31: 13007 bytes OK
+2019/07/03-14:48:48.201 37e03 Delete type=0 #28
+2019/07/03-22:14:27.437 4b43b Level-0 table #33: started
+2019/07/03-22:14:27.468 4b43b Level-0 table #33: 12232 bytes OK
+2019/07/03-22:14:27.556 4b43b Delete type=0 #30
+2019/07/03-22:14:27.569 544f3 Compacting 4@0 + 1@1 files
+2019/07/03-22:14:27.607 544f3 Generated table #34@0: 152 keys, 14706 bytes
+2019/07/03-22:14:27.608 544f3 Compacted 4@0 + 1@1 files => 14706 bytes
+2019/07/03-22:14:27.619 544f3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/07/03-22:14:27.625 544f3 Delete type=2 #29
+2019/07/03-22:14:27.628 544f3 Delete type=2 #33
+2019/07/03-22:14:27.629 544f3 Delete type=2 #27
+2019/07/03-22:14:27.631 544f3 Delete type=2 #31
+2019/07/03-22:14:27.634 544f3 Delete type=2 #25
+2019/07/03-22:16:32.853 4b43b Level-0 table #36: started
+2019/07/03-22:16:32.875 4b43b Level-0 table #36: 13458 bytes OK
+2019/07/03-22:16:32.897 4b43b Delete type=0 #32

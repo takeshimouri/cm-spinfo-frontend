@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import FindForm from './Findform'
+import SearchForm from './SearchForm'
 
 const Header = () => (
     <header>
@@ -8,6 +9,7 @@ const Header = () => (
         
         <h2>お客様情報一覧を表示します<br></br>
         <FindForm />
+        {/* <SearchForm /> */}
         </h2>
         <div className='header__nav'>
             <NavLink to='/add' activeClassName='activeNav'>新規メモ追加</NavLink>
