@@ -1,0 +1,70 @@
+.searchForm-container {
+  display: flex;
+  align-content: center;
+}
+
+.searchForm {
+  display: flex;
+  align-content: center;
+}
+
+.searchForm input[type=text] {
+  float: left;
+  height: 2.5em;
+  width: 10em;
+  border: 1px solid grey;
+  padding: 10px;
+  font-size: 14px;
+  background: #f1f1f1;
+}
+
+.searchForm button {
+  float: left;
+  height: 2.5em;
+  width: 4em;
+  padding: 0.3em;
+  font-size: 14px;
+  /* background: rgb(65, 131, 196); */
+  background: #668ad8;
+  border: 1px solid grey;
+  border-left: none;
+  /* background: #2196F3; */
+  color: white;
+  cursor: pointer;
+}
+
+.searchForm button:focus {
+  outline: none;
+}
+
+
+.searchForm-currentContainer {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2px;
+}
+
+.searchForm-currentData {
+  /* height: 100%; */
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+  margin-left: 2em;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.searchForm-currentMessage {
+  /* height: 100%; */
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  margin-left: 1em;
+  margin-bottom: 1px;
+}
+
+.searchForm button:hover {
+  /* background: #0b7dda; */
+  background: #1565c0;
+  /* color:#888; */
+}

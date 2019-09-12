@@ -1,0 +1,17 @@
+.app-body-header {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 1.8em 0 1.8em;
+  padding-top: 1.8em;
+}
+
+.app-body-container {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin-top: 0.5em;
+  margin-left: 1.8em;
+  margin-right: 1.8em;
+  padding-bottom: 1.8em;
+}

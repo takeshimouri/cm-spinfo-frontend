@@ -1,0 +1,21 @@
+.footerBar {
+  background-color: #333;
+  bottom: 0;
+}
+
+.footerBar-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  width: 980px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.footerBar-container-copyright {
+  display: block;
+  font-size: 14px;
+  color: white;
+  margin: 0 0.5em 0 0;
+}

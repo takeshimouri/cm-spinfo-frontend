@@ -1,0 +1,150 @@
+.mdmmModal-formContainer {
+  display: flex;
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  align-items: center;
+  /* flex-direction: column; */
+
+  height: 100%;
+  width: 100%;
+  /* background-color: #edf2f3a8; */
+  /* background-color: rgb(244, 245, 247); */
+  max-height:800px;
+  max-width:800px;
+  /* margin:0 auto; */
+  margin-top: 1em;
+}
+
+.mdmmModal-form {
+  /* display: flex; */
+  /* align-items: center;
+  flex-direction: column; */
+  /* height: 95%; */
+  width: 100%;
+}
+
+.mdmmModal-form-header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.mdmmModal-form-data {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* height: 95%; */
+}
+
+.mdmmModal-form-label {
+  color: rgb(107, 119, 140);
+
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.mdmmModal-form-data input[type=text], textarea {
+  background-color: rgb(250, 251, 252);
+  border-color: rgb(23, 43, 77);
+  border-style: none;
+  border-radius: 3px;
+  box-shadow: rgb(223, 225, 230) 0px 0px 0px 2px inset;
+
+  width: 300px;
+  padding: 0.5em;
+  margin: 0.5em;
+
+  vertical-align: top;
+
+}
+
+.mdmmModal-form-data input.error {
+  border-color: red;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 0 3px rgba(255, 0, 0, 0.1);
+}
+
+.mdmmModal-form-data .input-feedback {
+  /* display: inline-block; */
+  color: red;
+  margin-top: .2rem;
+  margin-bottom: .5rem;
+  margin-right: 1rem;
+  text-align: right;
+}
+
+
+
+/* input[type="text"] {
+    padding: 0.5em;
+    outline: none;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+} */
+
+.mdmmModal-form-close {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  /* margin-bottom: auto; */
+  margin-left: auto;
+}
+
+.mdmmModal-form-footer {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 40px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.mdmmModal-form-submit {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  line-height: 40px;
+  width: 100%;
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  /* color: rgb(107, 119, 140); */
+  color: rgb(23, 43, 77);
+  text-decoration: none;
+
+  border-top-color: rgba(9, 30, 66, 0.13);
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.mdmmModal-form-submitButton {
+  display: inline-block;
+  font-size: 14px;
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
+  text-decoration: none;
+  background: #668ad8;
+  color: #FFF;
+  border-radius: 3px;
+}
+
+.mdmmModal-form-submitButton:focus {
+  outline: none;
+}
+
+.mdmmModal-form-submitButton:hover {
+  /* background: #0b7dda; */
+  background: #1565c0;
+  /* color:#888; */
+}

@@ -1,0 +1,49 @@
+.modal-overlay {
+  position: fixed;
+  display: block;
+  box-sizing: border-box;
+
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+
+  background-size: auto;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+}
+
+.modal {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+
+  top: 40px;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+
+
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(255,255,255);
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+
+  border-color: rgb(204,204,204);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+
+  padding: 1em;
+  text-size-adjust: 100%;
+
+  overflow-x: auto;
+  overflow-y: auto;
+}

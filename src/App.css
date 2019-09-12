@@ -1,0 +1,23 @@
+.app {
+  max-width: 100%;
+  background-color: rgb(237, 237, 237);
+}
+
+.app-body {
+  display: block;
+  min-height: calc(100vh - 64px);
+  width:980px;
+  background-color: #f8f8f8;
+  max-width:100%;
+  margin:0 auto;
+}
+
+a:link {
+  /* color: rgb(65, 131,196); */
+  color: #668ad8;
+}
+
+a:visited {
+  /* color: rgb(65, 131,196); */
+  color: #668ad8;
+}

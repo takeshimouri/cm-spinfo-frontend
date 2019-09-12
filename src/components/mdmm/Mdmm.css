@@ -1,0 +1,101 @@
+
+.mdmmTable {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.mdmmTable-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.mdmmTable-title {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.mdmmTable-addButton {
+  display: inline-block;
+  font-size: 14px;
+  padding: 0.5em 1em;
+  margin-bottom: 0.3em;
+  text-decoration: none;
+  background: #668ad8;
+  color: #FFF;
+  border-radius: 3px;
+}
+
+.mdmmTable-addButton:focus {
+  outline: none;
+}
+
+.mdmmTable-addButton:hover {
+  /* background: #0b7dda; */
+  background: #1565c0;
+  /* color:#888; */
+}
+
+.mdmmTable-table {
+  max-width: 100%;
+  min-width: 100%;
+  font-size: 14px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.mdmmTable-thead th {
+  font-size: 12px;
+  color:white; /*文字色*/
+  background-color: hsl(60, 3%, 27%); /*背景色*/
+  border:solid 1px #aaaaaa;
+  padding: 0.5em 1em;
+}
+
+.mdmmTable-thead p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.mdmmTable-thead select {
+  font-size: 12px;
+  outline:none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  vertical-align: middle;
+  background: none transparent;
+  appearance: none;
+  padding: 5px 10px;
+  /* border:1px solid #ddd; */
+  border:1px solid #aaaaaa;
+  /* color:#828c9a; */
+  color:#d6d8db;
+  width:100%;
+  border-radius:2px;
+}
+
+.mdmmTable-thead input {
+  font-size: 12px;
+  outline:none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  vertical-align: middle;
+  background: none transparent;
+  padding: 5px 10px;
+  /* border:1px solid #ddd; */
+  border:1px solid #aaaaaa;
+  /* color:#828c9a; */
+  color:#d6d8db;
+  width:100%;
+  border-radius:2px;
+}
+
+.mdmmTable-tbody td {
+  border:solid 1px #aaaaaa;
+  padding: 0.5em 1em;
+}
